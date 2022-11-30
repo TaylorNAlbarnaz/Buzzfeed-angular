@@ -13,7 +13,7 @@ export class QuizComponent implements OnInit {
   selectedQuestion: any;
   questionImage: string = "";
 
-  answers: string[] = [];
+  answers: string = "";
   selectedAnswer: string = "";
 
   questionIndex: number = 0;
@@ -38,7 +38,7 @@ export class QuizComponent implements OnInit {
   }
 
   selectOption(value: string) {
-    this.answers.push(value);
+    this.answers += value;
     this.nextQuestion();
   }
 
@@ -61,18 +61,18 @@ export class QuizComponent implements OnInit {
     }
   }
 
-  async checkResults(answers: string[]) {
-    const result = answers.reduce((previous, current, i, arr) => {
-      if(
-        arr.filter(item => item === previous).length >
-        arr.filter(item => item === current).length
-      ) {
-        return previous;
-      } else {
-        return current;
-      }
-    });
+  async checkResults(answers: string) {
+    const distinctChars: string = [...new Set(answers)].join('');
+    let mostCommon: string = '';
+    let mostCommonCount: number = 0;
 
-    return result;
+    for (const letter of distinctChars) {
+      const size = answers.split(letter).length;
+      if (size > mostCommonCount) {
+        mostCommon = letter;
+        mostCommonCount = size;
+      }
+    }
+    return mostCommon;
   }
 }

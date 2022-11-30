@@ -3,64 +3,70 @@
     "questions":[
         {
         "id":1,
-        "image": "https://images.unsplash.com/photo-1587410131477-f01b22c59e1c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dGFsbCUyMHRvd2VyfGVufDB8fDB8fA%3D%3D&w=1000&q=80",
+        "image": "https://www.fanbolt.com/storage/2022/02/list-of-superpowers-800x500.jpg",
         "question": "Qual super poder você escolheria ?",
         "options":[
-            {"id": 1, "name":"Raios-Lasers", "alias":"A"},
-            {"id": 2, "name":"Voar", "alias":"B"},
-            {"id": 3, "name":"Explodir coisas", "alias":"A"},
-            {"id": 4, "name":"Curar feridas", "alias":"B"},
-            {"id": 5, "name":"Soltar fogo pelas mãos", "alias":"A"}
+            {"id": 1, "name":"Raios-Lasers", "alias":"AACC"},
+            {"id": 2, "name":"Voar", "alias":"BAC"},
+            {"id": 3, "name":"Explodir coisas", "alias":"AAA"},
+            {"id": 4, "name":"Curar feridas", "alias":"BBB"},
+            {"id": 5, "name":"Soltar fogo pelas mãos", "alias":"ACCC"}
         ]
         },
         {
         "id":2,
-        "image": "https://static.quizur.com/i/b/560d453f423468.37919352560d453f29bed3.55314447.jpg",
+        "image": "https://media.npr.org/assets/img/2012/05/30/grandpaniece_wide-b2e4518864bbb0a17efd93242519344234368ee3.jpg",
         "question": "Quem você salvaria primeiro ?",
         "options":[
-            {"id": 1, "name":"Crianças", "alias":"A"},
-            {"id": 2, "name":"Idosos", "alias":"A"},
-            {"id": 3, "name":"Não saberia escolher", "alias":"B"}
+            {"id": 1, "name":"Crianças", "alias":"AA"},
+            {"id": 2, "name":"Idosos", "alias":"AA"},
+            {"id": 3, "name":"Não saberia escolher", "alias":"BBCC"}
         ]
         },
         {
         "id":3,
-        "image": "https://static.quizur.com/i/b/560d453f423468.37919352560d453f29bed3.55314447.jpg",
+        "image": "https://ap2hyc.com/wp-content/uploads/2016/02/Captain-America-Civil-War-concept-art-1-1280x684.jpg",
         "question": "Qual a sua maior preocupação ao enfretar outro super ser ?",
         "options":[
-            {"id": 1, "name":"Não destruir prédios", "alias":"B"},
-            {"id": 2, "name":"Socar a cara do inimigo", "alias":"A"},
-            {"id": 3, "name":"Não sujar meu traje", "alias":"A"},
-            {"id": 4, "name":"Não deixar ninguém se ferir", "alias":"B"}
+            {"id": 1, "name":"Não destruir prédios", "alias":"BBC"},
+            {"id": 2, "name":"Socar a cara do inimigo", "alias":"AACCC"},
+            {"id": 3, "name":"Não sujar meu traje", "alias":"AAA"},
+            {"id": 4, "name":"Não deixar ninguém se ferir", "alias":"BBBC"}
         ]
         },
         {
         "id":4,
-        "image": "https://static.quizur.com/i/b/560d453f423468.37919352560d453f29bed3.55314447.jpg",
+        "image": "https://cdn.idntimes.com/content-images/duniaku/post/20220216/superior-iron-man-e0cecc844d331fd6f978affd73c56c08_600x400.jpg",
         "question": "Qual o seu maior foco ?",
         "options":[
-            {"id": 1, "name":"Ficar rico com poderes", "alias":"A"},
-            {"id": 2, "name":"Salvar a cidade", "alias":"B"}
+            {"id": 1, "name":"Ficar rico com poderes", "alias":"AAACC"},
+            {"id": 2, "name":"Salvar a cidade", "alias":"BBC"}
         ]
         },
         {
         "id":5,
-        "image": "https://static.quizur.com/i/b/560d453f423468.37919352560d453f29bed3.55314447.jpg",
+        "image": "https://sm.ign.com/ign_pt/gallery/p/punisher-1/punisher-1-preview-art_pwmp.jpg",
         "question": "Qual o seu apelido de super ser ?",
         "options":[
             {"id": 1, "name":"O Terrivel", "alias":"A"},
-            {"id": 2, "name":"Amigo da vizinhança", "alias":"B"}
+            {"id": 2, "name":"O Justiceiro", "alias":"CC"},
+            {"id": 3, "name":"Amigo da vizinhança", "alias":"B"}
         ]
         }
     ],
     "results":{
         "A": {
-            "text": "Você muito provavelmente seria um super vilão!",
-            "image": "https://static.quizur.com/i/b/560d453f423468.37919352560d453f29bed3.55314447.jpg"
+            "text": "Você muito provavelmente seria um Vilão!",
+            "image": "https://pyxis.nymag.com/v1/imgs/6d5/f2b/c170a39a8c2aa26c3207ca8db18bb43da9-joker-heath-ledger-3.2x.rhorizontal.w710.jpg"
         },
         "B": {
-            "text": "Você muito provavelmente seria um super Herói!",
-            "image": "https://static.quizur.com/i/b/560d453f423468.37919352560d453f29bed3.55314447.jpg"
+            "text": "Você muito provavelmente seria um Herói!",
+            "image": "https://static.wikia.nocookie.net/dccomics/images/a/a5/Superman_Vol_5_1_Textless.jpg/revision/latest?cb=20200421194020&path-prefix=pt"
+        },
+        "C": {
+            "text": "Você muito provavelmente seria um Anti-Herói",
+            "image": "https://ovicio.com.br/wp-content/uploads/2022/01/20220111-deadpool01-ovicio.jpg"
         }
+
     }
 }

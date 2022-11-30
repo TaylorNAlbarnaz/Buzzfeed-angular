@@ -51,8 +51,13 @@ export class QuizComponent implements OnInit {
     } else {
       const finalResult: string = await this.checkResults(this.answers);
       this.finished = true;
-      this.selectedAnswer = quiz_questions.results[finalResult as keyof
-      typeof quiz_questions.results];
+
+      const resultObj = quiz_questions.results[finalResult as keyof
+        typeof quiz_questions.results];
+      
+      this.selectedAnswer = resultObj.text;
+
+      this.questionImage = resultObj.image;
     }
   }
 

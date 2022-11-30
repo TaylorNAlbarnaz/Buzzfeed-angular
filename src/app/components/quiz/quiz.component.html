@@ -18,7 +18,7 @@
         </button>
     </div>
 
-    <div *ngIf=finished class="quiz__results">
+    <div *ngIf=finished class="quiz__results" style="background-image: URL({{questionImage}});">
         <h1>O seu resultado é:</h1>
         <p>{{selectedAnswer}}</p>
     </div>

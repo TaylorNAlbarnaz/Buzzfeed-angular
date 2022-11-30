@@ -54,7 +54,13 @@
         }
     ],
     "results":{
-        "A": "Você muito provavelmente seria um super vilão!",
-        "B": "Você muito provavelmente seria um super Herói!"
+        "A": {
+            "text": "Você muito provavelmente seria um super vilão!",
+            "image": "https://static.quizur.com/i/b/560d453f423468.37919352560d453f29bed3.55314447.jpg"
+        },
+        "B": {
+            "text": "Você muito provavelmente seria um super Herói!",
+            "image": "https://static.quizur.com/i/b/560d453f423468.37919352560d453f29bed3.55314447.jpg"
+        }
     }
 }

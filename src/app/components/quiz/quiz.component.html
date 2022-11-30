@@ -4,7 +4,7 @@
         <h3>{{title}}</h3>
     </div>
 
-    <div *ngIf=!finished class="quiz__questions">
+    <div *ngIf=!finished class="quiz__questions" style="background-image: URL({{questionImage}});">
         <h3>{{selectedQuestion.question}}</h3>
     </div>
 

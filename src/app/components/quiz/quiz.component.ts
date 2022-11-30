@@ -11,6 +11,7 @@ export class QuizComponent implements OnInit {
 
   questions: any;
   selectedQuestion: any;
+  questionImage: string = "";
 
   answers: string[] = [];
   selectedAnswer: string = "";
@@ -28,6 +29,7 @@ export class QuizComponent implements OnInit {
       this.title = quiz_questions.title;
 
       this.questions = quiz_questions.questions;
+      this.questionImage = this.questions[this.questionIndex].image;
       this.selectedQuestion = this.questions[this.questionIndex];
 
       this.questionIndex = 0;
@@ -45,6 +47,7 @@ export class QuizComponent implements OnInit {
 
     if (this.questionMax > this.questionIndex) {
       this.selectedQuestion = this.questions[this.questionIndex];
+      this.questionImage = this.questions[this.questionIndex].image;
     } else {
       const finalResult: string = await this.checkResults(this.answers);
       this.finished = true;
